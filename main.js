@@ -3,7 +3,11 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-
+document.getElementsByID("modal").addEventListener(
+  () => {
+    document.getElementByID("modal-message").hidden = true;
+  }
+);
 
 
 
